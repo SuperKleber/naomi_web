@@ -1,5 +1,5 @@
 [submodule "terminal"]
-	path = terminal
+	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal/
 [submodule "hugo-theme-terminal"]
 	path = hugo-theme-terminal

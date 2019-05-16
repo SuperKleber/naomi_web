@@ -1,4 +1,4 @@
-baseurl = "http://192.168.0.12:5500/"
+baseurl = "https://amazing-archimedes-84c845.netlify.com/"
 languageCode = "es-es"
 theme = "terminal"
 paginate = 5
