@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🐾 Naomi</title>
+    <link>http://192.168.0.12:5500/</link>
+    <description>Recent content on 🐾 Naomi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>kleber.digital</copyright>
+    <lastBuildDate>Thu, 16 May 2019 05:45:29 -0400</lastBuildDate>
+    
+	<atom:link href="http://192.168.0.12:5500/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galería 3D</title>
+      <link>http://192.168.0.12:5500/gallery/</link>
+      <pubDate>Thu, 16 May 2019 05:45:29 -0400</pubDate>
+      
+      <guid>http://192.168.0.12:5500/gallery/</guid>
+      <description>.gallery3d{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;}.fyu{margin: 10px;}  </description>
+    </item>
+    
+    <item>
+      <title>Naomi</title>
+      <link>http://192.168.0.12:5500/histories/naomi/</link>
+      <pubDate>Thu, 16 May 2019 02:53:06 -0400</pubDate>
+      
+      <guid>http://192.168.0.12:5500/histories/naomi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

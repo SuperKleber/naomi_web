@@ -1,0 +1,13 @@
+
+<div class="home">
+    {{ range .Site.Data.home }}
+    <div class="home-card">
+            <img 
+            style="float: {{ .float }};" 
+            src="{{ .cover }}" 
+            alt="cover">
+            <p> {{ .description }}</p>
+        </div>
+    {{ end }}
+    
+</div>

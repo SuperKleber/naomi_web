@@ -1,0 +1,40 @@
+baseurl = "http://192.168.0.12:5500/"
+languageCode = "es-es"
+theme = "terminal"
+paginate = 5
+DefaultContentLanguage = "es"
+
+[params]
+  contentTypeName = "histories"
+  themeColor = "pink"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+  web="https://kleber.digital"
+  
+[languages]
+    [languages.es]
+        title = "🐾 Naomi"
+        subtitle = "La mascota de Kevin 💖"
+        keywords = ""
+        copyright = "kleber.digital"
+        
+        menuMore = "Mostrar más "
+        readMore = "Leer más... 👀"
+        readOtherPosts = "más posts"
+        
+        [languages.es.params.logo]
+        logoText = "Naomi"
+        logoHomeLink = "/"
+
+        [languages.es.menu]
+        [[languages.es.menu.main]]
+            identifier = "histories"
+            name = "Historias"
+            url = "/histories"
+        [[languages.es.menu.main]]
+            identifier = "gallery"
+            name = "Galería de fotos"   
+            url = "/gallery"
+        
+    
