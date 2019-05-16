@@ -1,0 +1,38 @@
+<footer class="footer">
+  <div class="footer__inner">
+    {{ if $.Site.Copyright }}
+      {{ if $.Param "web" }}
+      
+        <p>
+            Hecho con amor ❤ por:
+            <a href="{{ $.Param "web" }}" class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</a>
+        </p>
+      {{else}}
+        <div class="copyright copyright--user">Hecho por  {{ $.Site.Copyright | safeHTML }}</div>
+      {{end}}
+    {{else}}
+      <div class="copyright">
+        <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    {{end}}
+  </div>
+</footer>
+
+<script src="{{ "/assets/main.js" | absURL }}"></script>
+<script src="{{ "/assets/prism.js" | absURL }}"></script>
+
+<!-- Netlify CMS -->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+<!-- Extended footer section-->
+{{ partial "extended_footer.html" . }}

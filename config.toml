@@ -3,7 +3,6 @@ languageCode = "es-es"
 theme = "terminal"
 paginate = 5
 DefaultContentLanguage = "es"
-
 [params]
   contentTypeName = "histories"
   themeColor = "pink"
