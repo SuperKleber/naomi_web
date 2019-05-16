@@ -7,6 +7,4 @@
 [submodule "themes/panr"]
 	path = themes/panr
 	url = https://github.com/panr/hugo-theme-terminal/
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
+

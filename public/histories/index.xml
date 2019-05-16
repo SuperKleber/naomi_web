@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🐾 Naomi</title>
-    <link>http://192.168.0.12:5500/histories/</link>
+    <link>https://amazing-archimedes-84c845.netlify.com/histories/</link>
     <description>Recent content on 🐾 Naomi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>kleber.digital</copyright>
     <lastBuildDate>Thu, 16 May 2019 02:53:06 -0400</lastBuildDate>
     
-	<atom:link href="http://192.168.0.12:5500/histories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amazing-archimedes-84c845.netlify.com/histories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Naomi</title>
-      <link>http://192.168.0.12:5500/histories/naomi/</link>
+      <link>https://amazing-archimedes-84c845.netlify.com/histories/naomi/</link>
       <pubDate>Thu, 16 May 2019 02:53:06 -0400</pubDate>
       
-      <guid>http://192.168.0.12:5500/histories/naomi/</guid>
+      <guid>https://amazing-archimedes-84c845.netlify.com/histories/naomi/</guid>
       <description></description>
     </item>
     

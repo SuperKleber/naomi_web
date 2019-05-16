@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://192.168.0.12:5500/gallery/</loc>
+    <loc>https://amazing-archimedes-84c845.netlify.com/gallery/</loc>
     <lastmod>2019-05-16T05:45:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://192.168.0.12:5500/</loc>
+    <loc>https://amazing-archimedes-84c845.netlify.com/</loc>
     <lastmod>2019-05-16T05:45:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://192.168.0.12:5500/histories/</loc>
+    <loc>https://amazing-archimedes-84c845.netlify.com/histories/</loc>
     <lastmod>2019-05-16T02:53:06-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://192.168.0.12:5500/histories/naomi/</loc>
+    <loc>https://amazing-archimedes-84c845.netlify.com/histories/naomi/</loc>
     <lastmod>2019-05-16T02:53:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://192.168.0.12:5500/categories/</loc>
+    <loc>https://amazing-archimedes-84c845.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://192.168.0.12:5500/tags/</loc>
+    <loc>https://amazing-archimedes-84c845.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
