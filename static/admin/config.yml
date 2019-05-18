@@ -8,7 +8,7 @@ media_folder: "/img/uploads"
 collections:
 - name: "histories" # Used in routes, e.g., /admin/collections/blog
   label: "Historias" # Used in the UI
-  folder: "/histories" # The path to the folder where the documents are stored
+  folder: "/content/histories" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
@@ -20,7 +20,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
 - name: "gallery" # Used in routes, e.g., /admin/collections/blog
   label: "Galería 3D" # Used in the UI
-  folder: "/gallery" # The path to the folder where the documents are stored
+  folder: "/content/gallery" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
