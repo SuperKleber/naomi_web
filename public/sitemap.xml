@@ -4,30 +4,12 @@
   
   <url>
     <loc>https://jovial-swirles-5140a2.netlify.com/gallery/</loc>
-    <lastmod>2019-05-16T05:45:29-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jovial-swirles-5140a2.netlify.com/gallery/1/</loc>
-    <lastmod>2019-05-16T05:45:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jovial-swirles-5140a2.netlify.com/</loc>
-    <lastmod>2019-05-16T05:45:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jovial-swirles-5140a2.netlify.com/histories/</loc>
-    <lastmod>2019-05-16T02:53:06-04:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jovial-swirles-5140a2.netlify.com/histories/naomi/</loc>
-    <lastmod>2019-05-16T02:53:06-04:00</lastmod>
   </url>
   
   <url>
@@ -37,6 +19,11 @@
   
   <url>
     <loc>https://jovial-swirles-5140a2.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jovial-swirles-5140a2.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
