@@ -6,4 +6,4 @@ tags:
   - sleep
 cover: /static/img/uploads/naomi-en-cama.jpeg
 ---
-A naomi le gusta dormir entre Almohadas, pero también sobre mi ropa, se hace caracolito cuando tiene frío :v
+A naomi le gusta dormir entre Almohadas, pero también sobre mi ropa, se hace caracolito cuando tiene frío :v xDxD
