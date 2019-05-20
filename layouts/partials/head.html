@@ -23,13 +23,15 @@
 <link rel="shortcut icon" href="{{ printf "img/favicon/%s.png" $.Site.Params.ThemeColor | relURL }}">
 {{ end }}
 
+{{$cover := or .Params.Cover .Site.Params.Cover }}
+
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ end }}" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
 <meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
 <meta name="twitter:creator" content="{{ .Params.Author }}" />
-<meta name="twitter:image" content="{{ with .Params.Cover }}{{ . | relURL }}{{ end }}">
+<meta name="twitter:image" content="{{$cover}}">
 
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
@@ -38,7 +40,7 @@
 <meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Title }}" />
-<meta property="og:image" content="{{ with .Params.Cover }}{{ . | relURL }}{{ end }}">
+<meta property="og:image" content="{{$cover}}">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
@@ -59,3 +61,4 @@
 
 <!-- Netlify CMS -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{/*  <h1>{{ $cover }}</h1>  */}}
