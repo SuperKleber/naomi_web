@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>kleber.digital</copyright>
-    <lastBuildDate>Thu, 16 May 2019 12:56:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 07:09:15 +0000</lastBuildDate>
     
 	<atom:link href="https://jovial-swirles-5140a2.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>clothing</title>
+      <link>https://jovial-swirles-5140a2.netlify.com/tags/clothing/</link>
+      <pubDate>Mon, 20 May 2019 07:09:15 +0000</pubDate>
+      
+      <guid>https://jovial-swirles-5140a2.netlify.com/tags/clothing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>sleep</title>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>🐾 Naomi</title>
-    <link>https://jovial-swirles-5140a2.netlify.com/histories/</link>
-    <description>Recent content on 🐾 Naomi</description>
+    <title>clothing on 🐾 Naomi</title>
+    <link>https://jovial-swirles-5140a2.netlify.com/tags/clothing/</link>
+    <description>Recent content in clothing on 🐾 Naomi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>kleber.digital</copyright>
     <lastBuildDate>Mon, 20 May 2019 07:09:15 +0000</lastBuildDate>
     
-	<atom:link href="https://jovial-swirles-5140a2.netlify.com/histories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jovial-swirles-5140a2.netlify.com/tags/clothing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://jovial-swirles-5140a2.netlify.com/histories/2019-05-20-naomi-con-vestido/</guid>
       <description>Sé que no está muy chido Humanizar a los animales pero ese vestido era irresistiblemente hermoso.</description>
-    </item>
-    
-    <item>
-      <title>Entre almohadas</title>
-      <link>https://jovial-swirles-5140a2.netlify.com/histories/2019-05-18-entre-almohadas/</link>
-      <pubDate>Thu, 16 May 2019 12:56:52 +0000</pubDate>
-      
-      <guid>https://jovial-swirles-5140a2.netlify.com/histories/2019-05-18-entre-almohadas/</guid>
-      <description>A naomi le gusta dormir entre Almohadas, pero también sobre mi ropa, se hace caracolito cuando tiene frío :v xDxD</description>
     </item>
     
   </channel>
