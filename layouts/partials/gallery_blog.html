@@ -1,0 +1,30 @@
+<div class="post on-list">
+    <style>
+            .gallery3d{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+            }
+            @media screen and (min-width: 560px){
+               
+                .gallery3d iframe{
+                    width: 240px;
+                    height: 300px;
+                    margin: 10px;
+                    transition: 0.2s;
+                }
+                .gallery3d iframe:hover{
+                    transform: scale(1.1);
+                }
+            }
+    </style>
+    <gallery class="gallery3d" fyu=true>
+        {{ range  .Pages  }}
+            <iframe class="fyu post-cover" src="https://fyu.se/v/embed/{{ .Params.id_fyu }}?preload=0&nologo=1&zoom=0" 
+            width="280" height="480" frameborder="0" 
+            allow="accelerometer; autoplay; gyroscope" 
+            allowfullscreen></iframe>
+        {{ end }}
+    </gallery>
+</div>

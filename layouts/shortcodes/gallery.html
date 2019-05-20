@@ -1,17 +1,6 @@
 <!-- Script Fyu -->
 
 <div  class="{{.Get "class"}}">
-    {{if .Get "fyu"}}
-        <style>
-                .gallery3d{
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-                    align-items: center;
-                    
-                }
-        </style>
-        <script src="https://cdn.fyusion.com/assets/fyu-viewer-latest.js"></script>
-    {{end}}
+    
     {{.Inner}}
 </div>

@@ -126,7 +126,31 @@
   
   
   
-  
+    <div class="post on-list">
+    <style>
+            .gallery3d{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+            }
+            @media screen and (min-width: 560px){
+               
+                .gallery3d iframe{
+                    width: 240px;
+                    height: 300px;
+                    margin: 10px;
+                    transition: 0.2s;
+                }
+                .gallery3d iframe:hover{
+                    transform: scale(1.1);
+                }
+            }
+    </style>
+    <gallery class="gallery3d" fyu=true>
+        
+    </gallery>
+</div>
   
   <div class="pagination">
   <div class="pagination__buttons">
