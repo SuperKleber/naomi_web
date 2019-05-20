@@ -12,6 +12,7 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script>
       let count= 9;
+      let console=false
       addEventListener("DOMNodeInserted", function(){
         try{
           del=document.getElementById('title-field-'+count).parentNode;
@@ -25,7 +26,7 @@
 
         }
         catch(err){
-          console.log("all ok")
+          console && console.log("all OK")
         }
       })
   </script>
