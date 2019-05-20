@@ -30,4 +30,4 @@ collections:
     - {label: "Título", name: "title", widget: "string", required: true}
     - {label: "Fecha", name: "date", widget: "datetime", required: false}
     - {label: "Tags", name: "tags", widget: "list", required: false}
-    - {label: "Id de Fyu", name: "string", widget: "string", required: true}
+    - {label: "Id de Fyu", name: "id_fyu", widget: "string", required: true}

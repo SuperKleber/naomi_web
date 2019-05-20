@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jovial-swirles-5140a2.netlify.com/gallery/</loc>
+    <lastmod>2019-05-20T02:46:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jovial-swirles-5140a2.netlify.com/gallery/2019-05-20-primera-foto-3d/</loc>
+    <lastmod>2019-05-20T02:46:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-swirles-5140a2.netlify.com/</loc>
+    <lastmod>2019-05-20T02:46:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jovial-swirles-5140a2.netlify.com/histories/</loc>
     <lastmod>2019-05-16T12:56:52+00:00</lastmod>
     <priority>0</priority>
@@ -22,17 +39,6 @@
   <url>
     <loc>https://jovial-swirles-5140a2.netlify.com/tags/sleep/</loc>
     <lastmod>2019-05-16T12:56:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jovial-swirles-5140a2.netlify.com/</loc>
-    <lastmod>2019-05-16T12:56:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jovial-swirles-5140a2.netlify.com/gallery/</loc>
     <priority>0</priority>
   </url>
   
