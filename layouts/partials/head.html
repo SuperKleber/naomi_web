@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="{{ printf "img/favicon/%s.png" $.Site.Params.ThemeColor | relURL }}">
 {{ end }}
 
-{{$cover := or (.Params.Cover | relURL) (.Site.Params.Cover | relURL) }}
+{{$cover := or .Params.Cover  .Site.Params.Cover }}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
