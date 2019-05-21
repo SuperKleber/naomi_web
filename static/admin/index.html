@@ -9,22 +9,7 @@
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script>
-      let count= 9;
-      addEventListener("DOMNodeInserted", function(){
-        try{
-          del=document.getElementById('title-field-'+count).parentNode;
-          
-          setTimeout(()=>{
-            del.remove()
-            count+=3
-          },300)
-
-        }
-        catch(err){
-        }
-      })
-  </script>
+  
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   
 </body>
