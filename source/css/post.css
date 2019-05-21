@@ -55,6 +55,8 @@
     margin-top: 30px;
   }
 
+
+
   &-cover {
     border: 20px solid var(--accent);
     background: transparent;
@@ -94,3 +96,4 @@
     }
   }
 }
+
