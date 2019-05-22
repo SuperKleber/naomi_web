@@ -1,8 +1,9 @@
-baseurl = "https://naomi-pet.netlify.com/"
+baseurl = "https://naomi-pet.club/"
 languageCode = "es-es"
 theme = "terminal"
 paginate = 5
 DefaultContentLanguage = "es"
+enableRobotsTXT = true
 [params]
   contentTypeName = "histories"
   themeColor = "pink"
