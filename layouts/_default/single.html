@@ -27,6 +27,7 @@
 
   <div class="post-content">
     {{ .Content }}
+    {{ partial "comments.html" . }}
   </div>
   {{ if or .NextInSection .PrevInSection }}
   <div class="pagination">
@@ -55,6 +56,5 @@
     </div>
   </div>
   {{ end }}
-  {{ partial "comments.html" . }}
 </div>
 {{ end }}
