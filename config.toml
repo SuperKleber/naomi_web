@@ -4,7 +4,7 @@ theme = "terminal"
 paginate = 5
 DefaultContentLanguage = "es"
 enableRobotsTXT = true
-disqusShortname = "naomi-pet-club.disqus.com"
+disqusShortname = "naomi-pet-club"
 [params]
   contentTypeName = "histories"
   themeColor = "pink"
